@@ -1,0 +1,65 @@
+{
+  "Dirt": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  },
+  "Copper pickaxe": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 1,
+    "Description": "It smells like medicine."
+  },
+  "Copper axe": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 1,
+    "Description": "It smells like medicine."
+  },
+  "Log": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  }
+  "Copper Bomb": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  }
+  "Iron Bomb": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  }
+  "Mythril Bomb": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  }
+  "Adamant Bomb": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  }
+  "Dragonite Bomb": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  }
+}

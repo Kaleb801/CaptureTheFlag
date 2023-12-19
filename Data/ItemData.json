@@ -1,0 +1,989 @@
+{
+  "Dirt": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  },
+  "Stone": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  },
+  "Copper Bar": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  },
+  "Iron Bar": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  },
+  "Mythril Bar": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  },
+  "Adamant Bar": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  },
+  "Dragonite Bar": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  },
+   "Copper Sword": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 1,
+    "Description": "It smells like medicine."
+  },
+  "Copper Boots": {
+	"ItemCategory": "Shoes",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 1,
+    "Description": "It smells like medicine."
+  },
+  "Copper ChestPlate": {
+	"ItemCategory": "Shirt",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 1,
+    "Description": "It smells like medicine."
+  },
+  "Copper Helmet": {
+	"ItemCategory": "Head",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 1,
+    "Description": "It smells like medicine."
+  },
+  "Copper Legs": {
+	"ItemCategory": "Pants",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 1,
+    "Description": "It smells like medicine."
+  },
+  "Iron Sword": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 1,
+    "Description": "It smells like medicine."
+  },
+  "Iron Boots": {
+	"ItemCategory": "Shoes",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 1,
+    "Description": "It smells like medicine."
+  },
+  "Iron ChestPlate": {
+	"ItemCategory": "Shirt",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 1,
+    "Description": "It smells like medicine."
+  },
+  "Iron Helmet": {
+	"ItemCategory": "Head",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 1,
+    "Description": "It smells like medicine."
+  },
+  "Iron Legs": {
+	"ItemCategory": "Pants",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 1,
+    "Description": "It smells like medicine."
+  },
+  "Mythril Sword": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 1,
+    "Description": "It smells like medicine."
+  },
+  "Mythril Boots": {
+	"ItemCategory": "Shoes",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 1,
+    "Description": "It smells like medicine."
+  },
+  "Mythril ChestPlate": {
+	"ItemCategory": "Shirt",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 1,
+    "Description": "It smells like medicine."
+  },
+  "Mythril Helmet": {
+	"ItemCategory": "Head",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 1,
+    "Description": "It smells like medicine."
+  },
+  "Mythril Legs": {
+	"ItemCategory": "Pants",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 1,
+    "Description": "It smells like medicine."
+  },
+  "Adamant Sword": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 1,
+    "Description": "It smells like medicine."
+  },
+  "Adamant Boots": {
+	"ItemCategory": "Shoes",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 1,
+    "Description": "It smells like medicine."
+  },
+  "Adamant ChestPlate": {
+	"ItemCategory": "Shirt",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 1,
+    "Description": "It smells like medicine."
+  },
+  "Adamant Helmet": {
+	"ItemCategory": "Had",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 1,
+    "Description": "It smells like medicine."
+  },
+  "Adamant Legs": {
+	"ItemCategory": "Pants",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 1,
+    "Description": "It smells like medicine."
+  },
+  "Dragonite Sword": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 1,
+    "Description": "It smells like medicine."
+  },
+  "Dragonite Boots": {
+	"ItemCategory": "Shoes",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 1,
+    "Description": "It smells like medicine."
+  },
+  "Dragonite ChestPlate": {
+	"ItemCategory": "Shirt",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 1,
+    "Description": "It smells like medicine."
+  },
+  "Dragonite Helmet": {
+	"ItemCategory": "Head",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 1,
+    "Description": "It smells like medicine."
+  },
+  "Dragonite Legs": {
+	"ItemCategory": "Pants",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 1,
+    "Description": "It smells like medicine."
+  },
+  "Copper Stone": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  },
+  "Iron Stone": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  },
+  "Mythril Stone": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  },
+  "Adamant Stone": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  },
+  "Dragonite Stone": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  },
+  "Copper pickaxe": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 1,
+    "Description": "It smells like medicine."
+  },
+  "Copper axe": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 1,
+    "Description": "It smells like medicine."
+  },
+  "Log": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  },
+  "Birch Log": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  },
+  "Plum Log": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  },
+  "Eucalyptus Log": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  },
+  "Brazier Log": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  },
+  "Torch": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  },
+  "Carrot": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  },
+  "Onion": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  },
+  "Beet": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  },
+  "Lettuce": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  },
+  "Pepper": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  },
+   "Sap": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  },
+  "Wood Wall": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  },
+  "Birch Wall": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  },
+  "Plum Wall": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  },
+  "Eucalyptus Wall": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  },
+  "Brazier Wall": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  },
+  "Wood Door": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 1,
+    "Description": "It smells like medicine."
+  },
+  "Birch Door": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 1,
+    "Description": "It smells like medicine."
+  },
+  "Plum Door": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 1,
+    "Description": "It smells like medicine."
+  },
+  "Eucalyptus Door": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 1,
+    "Description": "It smells like medicine."
+  },
+  "Brazier Door": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 1,
+    "Description": "It smells like medicine."
+  },
+   "Table": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 1,
+    "Description": "It smells like medicine."
+  },
+  "Furnace": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 1,
+    "Description": "It smells like medicine."
+  },
+  "Vase": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 1,
+    "Description": "It smells like medicine."
+  },
+  "Vase": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 1,
+    "Description": "It smells like medicine."
+  },
+  "Wood Seed": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  },
+  "Birch Seed": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  },
+  "Plum Seed": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  },
+  "Eucalyptus Seed": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  },
+  "Brazier Seed": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  },
+  "Carrot Seed": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  },
+  "Onion Seed": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  },
+  "Beet Seed": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  },
+  "Lettuce Seed": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  },
+  "Pepper Seed": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  },
+  "Orange Fiber": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  },
+  "Gray Fiber": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  },
+  "Blue Fiber": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  },
+  "Green Fiber": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  },
+  "Red Fiber": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  },
+  "Orange Cloth": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  },
+  "Gray Cloth": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  },
+  "Blue Cloth": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  },
+  "Green Cloth": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  },
+  "Red Cloth": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  },
+  "Garnet Boots": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 1,
+    "Description": "It smells like medicine."
+  },
+  "Garnet Hat": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 1,
+    "Description": "It smells like medicine."
+  },
+  "Garnet Robe": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 1,
+    "Description": "It smells like medicine."
+  },
+  "Garnet Skirt": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  },
+  "Opal Boots": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 1,
+    "Description": "It smells like medicine."
+  },
+  "Opal Hat": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 1,
+    "Description": "It smells like medicine."
+  },
+  "Opal Robe": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 1,
+    "Description": "It smells like medicine."
+  },
+  "Opal Skirt": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  },
+  "Sapphire Boots": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 1,
+    "Description": "It smells like medicine."
+  },
+  "Sapphire Hat": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 1,
+    "Description": "It smells like medicine."
+  },
+  "Sapphire Robe": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 1,
+    "Description": "It smells like medicine."
+  },
+  "Sapphire Skirt": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  },
+  "Emerald Boots": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 1,
+    "Description": "It smells like medicine."
+  },
+  "Emerald Hat": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 1,
+    "Description": "It smells like medicine."
+  },
+  "Emerald Robe": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 1,
+    "Description": "It smells like medicine."
+  },
+  "Emerald Skirt": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  },
+  "Ruby Boots": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 1,
+    "Description": "It smells like medicine."
+  },
+  "Ruby Hat": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 1,
+    "Description": "It smells like medicine."
+  },
+  "Ruby Robe": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 1,
+    "Description": "It smells like medicine."
+  },
+  "Ruby Skirt": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  },
+  "Garnet Staff": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 1,
+    "Description": "It smells like medicine."
+  },
+  "Opal Staff": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 1,
+    "Description": "It smells like medicine."
+  },
+  "Sapphire Staff": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 1,
+    "Description": "It smells like medicine."
+  },
+  "Emerald Staff": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 1,
+    "Description": "It smells like medicine."
+  },
+  "Ruby Staff": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 1,
+    "Description": "It smells like medicine."
+  },
+  "Ladder": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  },
+  "Attack Potion": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  },
+  "Critical Attack Potion": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  },
+  "Defense Potion": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  },
+  "Energy Potion": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  },
+  "Energy Regen Potion": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  },
+  "Healing Potion": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  },
+  "health Regen Potion": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  },
+  "Strong Energy Potion": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  },
+  "Strong Healing Potion": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  },
+  "Velocity Potion": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  },
+  "Copper Bomb": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  },
+  "Iron Bomb": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  },
+  "Mythril Bomb": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  },
+  "Adamant Bomb": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  },
+  "Dragonite Bomb": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  },
+  "Chest": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 1,
+    "Description": "It smells like medicine."
+  },
+  "Bootle": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  },
+  "Charcoal": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  },
+  "Anvil": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 1,
+    "Description": "It smells like medicine."
+  },
+  "Sand": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  },
+  "Vial": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  },
+  "Glass": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "It smells like medicine."
+  },
+  "Iron pickaxe": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 1,
+    "Description": "It smells like medicine."
+  },
+  "Iron axe": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 1,
+    "Description": "It smells like medicine."
+  },
+  "Mythril pickaxe": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 1,
+    "Description": "It smells like medicine."
+  },
+  "Mythril axe": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 1,
+    "Description": "It smells like medicine."
+  },
+  "Adamant pickaxe": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 1,
+    "Description": "It smells like medicine."
+  },
+  "Adamant axe": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 1,
+    "Description": "It smells like medicine."
+  },
+  "Dragonite pickaxe": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 1,
+    "Description": "It smells like medicine."
+  },
+  "Dragonite axe": {
+	"ItemCategory": "Consumable",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 1,
+    "Description": "It smells like medicine."
+  },
+}

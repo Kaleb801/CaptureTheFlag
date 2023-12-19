@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Evil 03.ogg-c73eb55f4fc5abb7ea22397f24bb7cfd.oggstr"
+
+[deps]
+
+source_file="res://Sounds/Evil 03.ogg"
+dest_files=[ "res://.import/Evil 03.ogg-c73eb55f4fc5abb7ea22397f24bb7cfd.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

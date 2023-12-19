@@ -1,0 +1,320 @@
+[gd_scene load_steps=21 format=2]
+
+[ext_resource path="res://Scenes/Hotbar.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Scenes/Inventory.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Scripts/UserInterface.gd" type="Script" id=3]
+[ext_resource path="res://Scenes/HealthUI.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Scenes/Craft.tscn" type="PackedScene" id=5]
+[ext_resource path="res://Images/m5x7.ttf" type="DynamicFontData" id=6]
+[ext_resource path="res://Scripts/Score.gd" type="Script" id=7]
+[ext_resource path="res://Images/HD-wallpaper-clean-pc.jpg" type="Texture" id=8]
+
+[sub_resource type="StyleBoxFlat" id=1]
+bg_color = Color( 1, 0.768627, 0.541176, 1 )
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color( 0, 0, 0, 1 )
+
+[sub_resource type="DynamicFont" id=6]
+size = 40
+outline_size = 1
+outline_color = Color( 0, 0, 0, 1 )
+font_data = ExtResource( 6 )
+
+[sub_resource type="DynamicFont" id=7]
+size = 26
+outline_size = 1
+outline_color = Color( 0, 0, 0, 1 )
+font_data = ExtResource( 6 )
+
+[sub_resource type="DynamicFont" id=9]
+size = 20
+outline_size = 1
+outline_color = Color( 0, 0, 0, 1 )
+font_data = ExtResource( 6 )
+
+[sub_resource type="StyleBoxFlat" id=10]
+bg_color = Color( 0.972549, 0.498039, 0.498039, 1 )
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color( 0.615686, 0.192157, 0.192157, 1 )
+
+[sub_resource type="StyleBoxFlat" id=11]
+bg_color = Color( 0.407843, 0.0392157, 0.0392157, 1 )
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color( 0.180392, 0.0117647, 0.0117647, 1 )
+
+[sub_resource type="StyleBoxFlat" id=12]
+bg_color = Color( 0.286275, 0.286275, 0.286275, 1 )
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color( 0.109804, 0.109804, 0.109804, 1 )
+
+[sub_resource type="StyleBoxFlat" id=13]
+bg_color = Color( 0.713726, 0.219608, 0.219608, 1 )
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color( 0.215686, 0.0196078, 0.0196078, 1 )
+
+[sub_resource type="StyleBoxFlat" id=4]
+bg_color = Color( 1, 0.45098, 0.45098, 1 )
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color( 0.627451, 0.207843, 0.207843, 1 )
+
+[sub_resource type="DynamicFont" id=8]
+size = 32
+outline_size = 1
+outline_color = Color( 0, 0, 0, 1 )
+font_data = ExtResource( 6 )
+
+[sub_resource type="DynamicFont" id=3]
+size = 20
+outline_size = 1
+outline_color = Color( 0, 0, 0, 1 )
+font_data = ExtResource( 6 )
+
+[sub_resource type="DynamicFont" id=5]
+size = 28
+outline_size = 1
+outline_color = Color( 0, 0, 0, 1 )
+font_data = ExtResource( 6 )
+
+[node name="UserInterface" type="CanvasLayer"]
+script = ExtResource( 3 )
+
+[node name="End" type="Node2D" parent="."]
+visible = false
+
+[node name="Sprite" type="Sprite" parent="End"]
+position = Vector2( 405.5, 246 )
+scale = Vector2( 1.01375, 0.996 )
+texture = ExtResource( 8 )
+
+[node name="Panel" type="Panel" parent="End"]
+margin_left = 217.0
+margin_top = 183.0
+margin_right = 599.0
+margin_bottom = 370.0
+custom_styles/panel = SubResource( 1 )
+
+[node name="Win" type="Label" parent="End"]
+visible = false
+margin_left = 306.0
+margin_top = 183.0
+margin_right = 506.0
+margin_bottom = 215.0
+size_flags_horizontal = 2
+size_flags_vertical = 0
+custom_colors/font_color = Color( 0, 1, 0.015625, 1 )
+custom_fonts/font = SubResource( 6 )
+text = "You Win!"
+align = 1
+
+[node name="Lose" type="Label" parent="End"]
+visible = false
+margin_left = 306.0
+margin_top = 183.0
+margin_right = 506.0
+margin_bottom = 215.0
+size_flags_horizontal = 2
+size_flags_vertical = 0
+custom_colors/font_color = Color( 1, 0, 0, 1 )
+custom_fonts/font = SubResource( 6 )
+text = "You Lose!"
+align = 1
+
+[node name="Draw" type="Label" parent="End"]
+visible = false
+margin_left = 306.0
+margin_top = 183.0
+margin_right = 506.0
+margin_bottom = 215.0
+size_flags_horizontal = 2
+size_flags_vertical = 0
+custom_colors/font_color = Color( 1, 0.85098, 0, 1 )
+custom_fonts/font = SubResource( 6 )
+text = "Draw!"
+align = 1
+
+[node name="flags" type="Label" parent="End"]
+margin_left = 234.0
+margin_top = 225.0
+margin_right = 302.0
+margin_bottom = 247.0
+size_flags_vertical = 1
+custom_fonts/font = SubResource( 7 )
+text = "Captured flags:"
+
+[node name="Score" type="Label" parent="End/flags"]
+margin_left = 139.0
+margin_top = -1.0
+margin_right = 269.0
+margin_bottom = 21.0
+size_flags_vertical = 1
+custom_fonts/font = SubResource( 7 )
+text = "0"
+
+[node name="lostflags" type="Label" parent="End"]
+margin_left = 232.0
+margin_top = 248.0
+margin_right = 362.0
+margin_bottom = 270.0
+size_flags_vertical = 1
+custom_fonts/font = SubResource( 7 )
+text = "Captured flags:"
+
+[node name="Score" type="Label" parent="End/lostflags"]
+margin_left = 140.0
+margin_right = 270.0
+margin_bottom = 22.0
+size_flags_vertical = 1
+custom_fonts/font = SubResource( 7 )
+text = "0"
+
+[node name="Kills" type="Label" parent="End"]
+margin_left = 231.0
+margin_top = 272.0
+margin_right = 361.0
+margin_bottom = 294.0
+size_flags_vertical = 1
+custom_fonts/font = SubResource( 7 )
+text = "Kills:"
+
+[node name="Score" type="Label" parent="End/Kills"]
+margin_left = 45.0
+margin_right = 175.0
+margin_bottom = 22.0
+size_flags_vertical = 1
+custom_fonts/font = SubResource( 7 )
+text = "0"
+
+[node name="Deaths" type="Label" parent="End"]
+margin_left = 229.0
+margin_top = 295.0
+margin_right = 359.0
+margin_bottom = 317.0
+size_flags_vertical = 1
+custom_fonts/font = SubResource( 7 )
+text = "Deaths:"
+
+[node name="Score" type="Label" parent="End/Deaths"]
+margin_left = 66.0
+margin_top = 1.0
+margin_right = 196.0
+margin_bottom = 23.0
+size_flags_vertical = 1
+custom_fonts/font = SubResource( 7 )
+text = "0"
+
+[node name="join" type="Button" parent="End"]
+margin_left = 362.0
+margin_top = 333.0
+margin_right = 442.0
+margin_bottom = 359.0
+size_flags_horizontal = 2
+size_flags_vertical = 2
+custom_fonts/font = SubResource( 9 )
+custom_styles/hover = SubResource( 10 )
+custom_styles/pressed = SubResource( 11 )
+custom_styles/disabled = SubResource( 12 )
+custom_styles/normal = SubResource( 13 )
+text = "Quit"
+
+[node name="Inventory" parent="." instance=ExtResource( 2 )]
+visible = false
+position = Vector2( -82, -66 )
+scale = Vector2( 2, 2 )
+
+[node name="Hotbar" parent="." instance=ExtResource( 1 )]
+position = Vector2( -82, -36 )
+scale = Vector2( 2, 2 )
+
+[node name="Craft" parent="." instance=ExtResource( 5 )]
+visible = false
+
+[node name="HealthUI" parent="." instance=ExtResource( 4 )]
+
+[node name="Score" type="Control" parent="."]
+margin_left = 326.0
+margin_top = 1.0
+margin_right = 366.0
+margin_bottom = 41.0
+script = ExtResource( 7 )
+
+[node name="Transition" type="Timer" parent="Score"]
+wait_time = 5.0
+one_shot = true
+
+[node name="Tween" type="Tween" parent="Score"]
+
+[node name="Timer2" type="Panel" parent="Score"]
+margin_left = 33.0
+margin_top = -82.0
+margin_right = 115.0
+margin_bottom = -28.0
+custom_styles/panel = SubResource( 4 )
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Score/Timer2"]
+margin_left = 54.0
+margin_top = 25.0
+margin_right = 94.0
+margin_bottom = 65.0
+custom_colors/default_color = Color( 0.898039, 0.415686, 0.360784, 1 )
+custom_fonts/normal_font = SubResource( 8 )
+text = "0"
+
+[node name="RichTextLabel2" type="RichTextLabel" parent="Score/Timer2"]
+margin_left = 14.0
+margin_top = 25.0
+margin_right = 49.0
+margin_bottom = 57.0
+custom_colors/default_color = Color( 0.360784, 0.772549, 0.898039, 1 )
+custom_fonts/normal_font = SubResource( 8 )
+text = "0"
+scroll_active = false
+deselect_on_focus_loss_enabled = false
+
+[node name="Label" type="Label" parent="Score/Timer2"]
+margin_left = 11.0
+margin_top = 9.0
+margin_right = 73.0
+margin_bottom = 37.0
+custom_fonts/font = SubResource( 3 )
+align = 1
+autowrap = true
+
+[node name="Panel" type="Panel" parent="Score"]
+visible = false
+margin_left = -37.0
+margin_top = -121.0
+margin_right = 188.0
+margin_bottom = -4.0
+custom_styles/panel = SubResource( 4 )
+
+[node name="Label" type="Label" parent="Score/Panel"]
+margin_left = 6.0
+margin_right = 222.0
+margin_bottom = 113.0
+custom_fonts/font = SubResource( 5 )
+text = "phase 01. 
+
+Collect resources and build your base!"
+autowrap = true
+
+[connection signal="pressed" from="End/join" to="." method="_on_join_pressed"]
+[connection signal="timeout" from="Score/Transition" to="Score" method="_on_Transition_timeout"]
+[connection signal="tween_completed" from="Score/Tween" to="Score" method="_on_Tween_tween_completed"]

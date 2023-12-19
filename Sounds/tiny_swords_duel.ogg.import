@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/tiny_swords_duel.ogg-c8b2ef529c0d0ad7d8f8b97ad590d33f.oggstr"
+
+[deps]
+
+source_file="res://Sounds/tiny_swords_duel.ogg"
+dest_files=[ "res://.import/tiny_swords_duel.ogg-c8b2ef529c0d0ad7d8f8b97ad590d33f.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

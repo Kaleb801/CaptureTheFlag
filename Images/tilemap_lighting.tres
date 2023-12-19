@@ -1,0 +1,31 @@
+[gd_resource type="Shader" format=2]
+
+[resource]
+code = "shader_type canvas_item;
+
+// Propriedade que receberá a cor da luz do Light2D
+uniform vec4 light_color : hint_color;
+
+
+void fragment() {
+    // Calcula a cor do fragmento com base na cor da luz
+    vec4 tile_color = texture(SCREEN_TEXTURE, SCREEN_UV);
+
+    // Verifica se o fragmento está abaixo da posição da luz (16, 16 no exemplo)
+    if (SCREEN_UV.x >= 0.0625 * 16.0 && SCREEN_UV.x < 0.0625 * 17.0 && SCREEN_UV.y >= 0.0625 * 16.0) {
+        // Fragmento abaixo da posição da luz
+        // Deixa a cor original
+    } else {
+        // Fragmento na posição da luz ou acima
+        // Aplica a cor da luz para clarear o bloco
+        tile_color.rgb *= light_color.rgb;
+    }
+
+    // Define a cor final do fragmento
+    // Aqui você pode adicionar outros efeitos se desejar
+    // Por exemplo, pode aplicar sombreamento ou outros ajustes de cor
+
+    // Define a cor final com a opacidade original
+    COLOR = tile_color;
+}
+"

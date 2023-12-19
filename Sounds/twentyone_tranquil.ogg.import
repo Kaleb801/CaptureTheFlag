@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/twentyone_tranquil.ogg-53b50f64615f2a402f753b3e9a819969.oggstr"
+
+[deps]
+
+source_file="res://Sounds/twentyone_tranquil.ogg"
+dest_files=[ "res://.import/twentyone_tranquil.ogg-53b50f64615f2a402f753b3e9a819969.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

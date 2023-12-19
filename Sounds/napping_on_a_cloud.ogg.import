@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/napping_on_a_cloud.ogg-3aa537ddc5befb912f9d0855d4a4bb2f.oggstr"
+
+[deps]
+
+source_file="res://Sounds/napping_on_a_cloud.ogg"
+dest_files=[ "res://.import/napping_on_a_cloud.ogg-3aa537ddc5befb912f9d0855d4a4bb2f.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

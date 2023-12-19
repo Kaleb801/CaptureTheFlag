@@ -1,0 +1,35 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://Scenes/Hurtbox.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Scripts/Flowers.gd" type="Script" id=2]
+[ext_resource path="res://Images/beet_13.png" type="Texture" id=3]
+[ext_resource path="res://Sounds/bushhitwav-14661.wav" type="AudioStream" id=4]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 10, 12.5 )
+
+[node name="Beet" type="Sprite"]
+texture = ExtResource( 3 )
+script = ExtResource( 2 )
+type = "Beet"
+
+[node name="Hurtbox" parent="." instance=ExtResource( 1 )]
+collision_layer = 16
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hurtbox"]
+position = Vector2( 0, 2.5 )
+shape = SubResource( 1 )
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 0.1
+
+[node name="Grow" type="Timer" parent="."]
+one_shot = true
+
+[node name="Audio" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 4 )
+
+[connection signal="area_entered" from="Hurtbox" to="." method="_on_Hurtbox_area_entered"]
+[connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]
+[connection signal="timeout" from="Grow" to="." method="_on_Grow_timeout"]
+[connection signal="finished" from="Audio" to="." method="_on_Audio_finished"]
